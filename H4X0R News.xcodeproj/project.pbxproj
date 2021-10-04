@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E43EA403270AD2A600EE6629 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43EA402270AD2A600EE6629 /* NetworkManager.swift */; };
+		E43EA405270ADA7E00EE6629 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43EA404270ADA7E00EE6629 /* PostData.swift */; };
 		E4795A262709937100149E65 /* H4X0R_NewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4795A252709937100149E65 /* H4X0R_NewsApp.swift */; };
 		E4795A282709937100149E65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4795A272709937100149E65 /* ContentView.swift */; };
 		E4795A2A2709937300149E65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4795A292709937300149E65 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E43EA402270AD2A600EE6629 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E43EA404270ADA7E00EE6629 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		E4795A222709937100149E65 /* H4X0R News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "H4X0R News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4795A252709937100149E65 /* H4X0R_NewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H4X0R_NewsApp.swift; sourceTree = "<group>"; };
 		E4795A272709937100149E65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +37,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E43EA401270AD27500EE6629 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E43EA402270AD2A600EE6629 /* NetworkManager.swift */,
+				E43EA404270ADA7E00EE6629 /* PostData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		E4795A192709937100149E65 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +67,7 @@
 			children = (
 				E4795A252709937100149E65 /* H4X0R_NewsApp.swift */,
 				E4795A272709937100149E65 /* ContentView.swift */,
+				E43EA401270AD27500EE6629 /* Models */,
 				E4795A292709937300149E65 /* Assets.xcassets */,
 				E4795A2E2709937300149E65 /* Info.plist */,
 				E4795A2B2709937300149E65 /* Preview Content */,
@@ -138,6 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E43EA403270AD2A600EE6629 /* NetworkManager.swift in Sources */,
+				E43EA405270ADA7E00EE6629 /* PostData.swift in Sources */,
 				E4795A282709937100149E65 /* ContentView.swift in Sources */,
 				E4795A262709937100149E65 /* H4X0R_NewsApp.swift in Sources */,
 			);
